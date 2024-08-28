@@ -6,20 +6,20 @@ This project focuses on predictive maintenance for wind turbine gearboxes using 
 
 ## Directory Structure
 ```
-├── 2 Data Preprocessing and Feature Engineering/
-│   2-2-1_data_preprocessing.py
-│   2-2-2_feature_engineering.py
+├── Data Preprocessing and Feature Engineering/
+│   data_preprocessing.py
+│   feature_engineering.py
 ├── Model Performance and Evaluation/
 │   Traditional Machine Learning Models/
-│   └── 2-3-1_Model_Training_+_HyperParameter_Tuning.py
+│   └── Model_Training_+_HyperParameter_Tuning.py
 │   Deep Learning Model Training/
-│   │── 2-3-2_CNN_Model.py
-│   │── 2-3-3_LSTM_Model.py
-│   └── 2-3-4_HybridModel.py
-├── 3 Model Performance and Evaluation/
-│   3-3-1_FFT_Analysis.py
-│   3-3-2_Decision_Boundaries.py
-├── 1 data/
+│   │── CNN_Model.py
+│   │── LSTM_Model.py
+│   └── HybridModel.py
+├── Model Performance and Evaluation/
+│   FFT_Analysis.py
+│   Decision_Boundaries.py
+├── data/
 ├── Processed_Vibration_Data_Stage_X.csv
 │   └── Engineered_Features_Stage_X.csv
 └── README.md
