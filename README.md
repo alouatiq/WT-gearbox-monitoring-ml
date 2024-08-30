@@ -1,125 +1,98 @@
+# Predictive and Performance-Oriented Approach for Wind Turbine Gearbox Maintenance
 
-# Predictive and Performance-Oriented Approach for Wind-Turbine Gearbox Maintenance: README
+This repository is part of a Ph.D. research project conducted by **Al Oautiq H.S.** under the supervision of **Professor Dr. Pronin S.S.**. The research focuses on enhancing the reliability of wind turbine gearboxes through advanced predictive maintenance strategies, utilizing a combination of machine learning, deep learning, and synthetic data generation techniques.
 
-## Project Overview
-This project focuses on predictive maintenance for wind turbine gearboxes using machine learning and deep learning techniques. The goal is to accurately detect faults in the gearbox through vibration data analysis. The project includes data preprocessing, feature engineering, machine learning model training, deep learning model implementation, and various analysis scripts.
+## Table of Contents
 
-## Directory Structure
-```
-├── Data Preprocessing and Feature Engineering/
-│   data_preprocessing.py
-│   feature_engineering.py
-├── Model Performance and Evaluation/
-│   Traditional Machine Learning Models/
-│   └── Model_Training_+_HyperParameter_Tuning.py
-│   Deep Learning Model Training/
-│   │── CNN_Model.py
-│   │── LSTM_Model.py
-│   └── HybridModel.py
-├── Model Performance and Evaluation/
-│   FFT_Analysis.py
-│   Decision_Boundaries.py
-├── data/
-├── Processed_Vibration_Data_Stage_X.csv
-│   └── Engineered_Features_Stage_X.csv
-└── README.md
-```
+1. [Introduction](#introduction)
+2. [Methods & Materials](#methods--materials)
+   - [Generating Synthetic Vibration Data for a Gearbox in a Wind Turbine](#generating-synthetic-vibration-data-for-a-gearbox-in-a-wind-turbine)
+   - [Data Preprocessing and Feature Engineering for Gearbox Fault Prediction](#data-preprocessing-and-feature-engineering-for-gearbox-fault-prediction)
+   - [Deep Learning Approaches for Predictive Maintenance in Wind Turbines](#deep-learning-approaches-for-predictive-maintenance-in-wind-turbines)
+   - [Enhancing Wind Turbine Gearbox Reliability: A Hybrid Deep Learning Approach for Predictive Maintenance](#enhancing-wind-turbine-gearbox-reliability-a-hybrid-deep-learning-approach-for-predictive-maintenance)
+3. [Results & Analysis](#results--analysis)
+   - [Machine Learning-Driven Gearbox Fault Detection: A Random Forest Approach](#machine-learning-driven-gearbox-fault-detection-a-random-forest-approach)
+   - [Optimized Model for Gearbox Fault Detection: A Random Forest Approach Using Vibration Data](#optimized-model-for-gearbox-fault-detection-a-random-forest-approach-using-vibration-data)
+4. [Case Studies & Recommendations](#case-studies--recommendations)
+   - [Case Study: Implementation of Predictive Maintenance in an Offshore Wind Farm](#case-study-implementation-of-predictive-maintenance-in-an-offshore-wind-farm)
+5. [Software Developed](#software-developed)
+6. [Contact Information](#contact-information)
 
-## Prerequisites
-Make sure you have Python 3.x installed along with the following packages:
-- `pandas`
-- `numpy`
-- `scikit-learn`
-- `matplotlib`
-- `tensorflow` (for deep learning models)
-- `seaborn` (for visualization)
 
-You can install the necessary packages using the following command:
+## Introduction
+
+This research aims to improve the reliability and maintenance practices of wind turbine gearboxes, which are critical components in wind energy systems. By leveraging synthetic data, advanced machine learning, and deep learning techniques, the project seeks to enhance predictive maintenance strategies and reduce the operational costs associated with gearbox failures.
+
+## Methods & Materials
+
+### Generating Synthetic Vibration Data for a Gearbox in a Wind Turbine
+
+This phase involved the creation of a synthetic dataset to simulate vibration data from a wind turbine gearbox. The generated data serves as a foundation for testing various fault detection models.
+
+- [WT-Gearbox-Vibration-Data-Generator](https://github.com/alouatiq/WT-Gearbox-Vibration-Data-Generator)
+
+### Data Preprocessing and Feature Engineering for Gearbox Fault Prediction
+
+Effective data preprocessing and feature engineering are crucial steps in building accurate predictive models. This stage focused on preparing the data for machine learning by applying various techniques to extract meaningful features from the vibration data.
+
+- [WT-Gearbox-Fault-Prediction-Data-Preprocessing-and-Feature-Engineering](https://github.com/alouatiq/WT-Gearbox-Fault-Prediction-Data-Preprocessing-and-Feature-Engineering)
+
+### Deep Learning Approaches for Predictive Maintenance in Wind Turbines
+
+Deep learning models were developed to predict potential gearbox failures, offering a sophisticated approach to maintenance scheduling.
+
+- [WT-Gearbox-Fault-Detection-ML-DeepLearningModels](https://github.com/alouatiq/WT-Gearbox-Fault-Detection-ML-DeepLearningModels)
+
+### Enhancing Wind Turbine Gearbox Reliability: A Hybrid Deep Learning Approach for Predictive Maintenance
+
+A hybrid deep learning model was proposed to further enhance the accuracy and reliability of fault detection systems.
+
+## Results & Analysis
+
+### Machine Learning-Driven Gearbox Fault Detection: A Random Forest Approach
+
+This section presents the results of applying a Random Forest classifier to detect gearbox faults, demonstrating the effectiveness of this machine learning technique.
+
+- [WT-Gearbox-Fault-Detection-ML-RandomForestClassifier](https://github.com/alouatiq/WT-Gearbox-Fault-Detection-ML-RandomForestClassifier)
+
+### Optimized Model for Gearbox Fault Detection: A Random Forest Approach Using Vibration Data
+
+Further optimization of the Random Forest model was carried out to improve its performance, using the synthetic vibration data generated earlier.
+
+- [WT-Gearbox-Fault-Prediction-Performance-and-Evaluation-Model](https://github.com/alouatiq/WT-Gearbox-Fault-Prediction-Performance-and-Evaluation-Model)
+
+## Case Studies & Recommendations
+
+### Case Study: Implementation of Predictive Maintenance in an Offshore Wind Farm
+
+The final section of the research applies the developed predictive maintenance models in a real-world scenario, on a wind farm, providing practical insights and recommendations for industry implementation.
+
+## Software Developed
+
+The following software tools were developed during this research:
+
+1. **[WT-Gearbox-Vibration-Data-Generator](https://github.com/alouatiq/WT-Gearbox-Vibration-Data-Generator):** Generates synthetic vibration data for gearbox fault detection.
+2. **[WT-Gearbox-Fault-Prediction-Data-Preprocessing-and-Feature-Engineering](https://github.com/alouatiq/WT-Gearbox-Fault-Prediction-Data-Preprocessing-and-Feature-Engineering):** Preprocesses and engineers features from vibration data for predictive modeling.
+3. **[WT-Gearbox-Fault-Detection-ML-DeepLearningModels](https://github.com/alouatiq/WT-Gearbox-Fault-Detection-ML-DeepLearningModels):** Implements deep learning models for fault detection.
+4. **[WT-Gearbox-Fault-Detection-ML-RandomForestClassifier](https://github.com/alouatiq/WT-Gearbox-Fault-Detection-ML-RandomForestClassifier):** A machine learning model using Random Forest for fault detection.
+5. **[WT-Gearbox-Fault-Prediction-Performance-and-Evaluation-Model](https://github.com/alouatiq/WT-Gearbox-Fault-Prediction-Performance-and-Evaluation-Model):** An optimized Random Forest model for fault prediction.
+
+## How to Clone the Repository with Submodules
+
+To properly clone this repository along with its submodules (which represent the associated software projects), use the following command:
+
 ```bash
-pip install pandas numpy scikit-learn matplotlib tensorflow seaborn
+git clone --recurse-submodules https://github.com/alouatiq/Predictive-and-Performance-Oriented-Approach-for-Wind-Turbine-Gearbox-Maintenance.git
+```
+If you have already cloned the repository without submodules, you can initialize and update the submodules with:
+
+```bash
+git submodule update --init --recursive
 ```
 
-## Usage Instructions
+## Contact Information
+For further information, discussions, or questions, you can reach out to the author:
 
-### 1. Data Preprocessing
-Before running any models, the vibration data needs to be preprocessed.
-- **Script:** `2-2-1_data_preprocessing.py`
-- **Purpose:** Cleans the raw vibration data, handles missing values, and normalizes the data for further analysis.
-- **Command:**
-  ```bash
-  python 2-2-1_data_preprocessing.py
-  ```
-- **Output:** The processed data is saved as `Processed_Vibration_Data_Stage_X.csv` in the `data/` directory.
+**AL OUATIQ H.S.** - [alh@dr.com](mailto:alouatiq@example.com)
 
-### 2. Feature Engineering
-Generate additional features from the preprocessed data to improve model performance.
-- **Script:** `2-2-2_feature_engineering.py`
-- **Purpose:** Extracts statistical features (e.g., mean, standard deviation) from the vibration signals.
-- **Command:**
-  ```bash
-  python 2-2-2_feature_engineering.py
-  ```
-- **Output:** The engineered features are saved as `Engineered_Features_Stage_I.csv` in the `data/` directory.
-
-### 3. Fast Fourier Transform (FFT) Analysis
-Analyze the frequency domain characteristics of the vibration data.
-- **Scripts:** `3-3-1_FFT_Analysis.py`
-- **Purpose:** Performs FFT on the vibration data to analyze its frequency content.
-- **Commands:**
-  ```bash
-  python 3-3-1_FFT_Analysis.py
-  ```
-- **Output:** Plots of the FFT results are displayed, showing frequency vs. amplitude for different fault conditions.
-
-### 4. Machine Learning Model Training
-Train a Random Forest classifier on the engineered features.
-- **Script:** `2-3-1_model_training_+_hyperparameter_tuning.py`
-- **Purpose:** Trains a Random Forest model and performs hyperparameter tuning to optimize its performance.
-- **Command:**
-  ```bash
-  python 2-3-1_model_training+hyperparameter_tuning.py
-  ```
-- **Output:** An optimized Random Forest model is trained, and its performance metrics are displayed.
-
-### 5. Deep Learning Model Training
-You can experiment with different deep learning models for fault detection.
-- **CNN Model**
-  - **Script:** `2-3-2_CNN_Model.py`
-  - **Purpose:** Trains a Convolutional Neural Network (CNN) on the vibration data.
-  - **Command:**
-    ```bash
-    python 2-3-2_CNN_Model.py
-    ```
-- **LSTM Model**
-  - **Script:** `2-3-3_LSTM_Model.py`
-  - **Purpose:** Trains a Long Short-Term Memory (LSTM) network on the vibration data.
-  - **Command:**
-    ```bash
-    python 2-3-3_LSTM_Model.py
-    ```
-- **Hybrid Model**
-  - **Script:** `2-3-4_HybridModel.py`
-  - **Purpose:** Combines a neural network with a Random Forest classifier.
-  - **Command:**
-    ```bash
-    python 2-3-4_HybridModel.py
-    ```
-
-### 6. Decision Boundary Visualization
-Visualize how well the trained model separates different fault classes.
-- **Script:** `3-3-2_Decision_Boundaries.py`
-- **Purpose:** Reduces the feature space to two dimensions using PCA and visualizes the decision boundaries of the Random Forest model.
-- **Command:**
-  ```bash
-  python 3-3-2_Decision_Boundaries.py
-  ```
-- **Output:** A plot showing the decision boundaries of the Random Forest model on the PCA-reduced data.
-
-## Notes and Recommendations
-- **Model Selection:** Depending on your data and objectives, you might prefer one model over another. CNNs and LSTMs are powerful but require more computational resources. Random Forests are easier to interpret and faster to train.
-- **Feature Engineering:** Good feature engineering can significantly boost the performance of traditional machine learning models like Random Forest.
-- **FFT Analysis:** Use FFT analysis if you believe that frequency-domain features are important for detecting faults in your vibration data.
-- **Hyperparameter Tuning:** It's important to tune the hyperparameters of your models to achieve the best performance.
-
-## Contact
-For any issues or questions, please contact H.S.A.
+**PRONIN S.P.** - [](mailto:)
