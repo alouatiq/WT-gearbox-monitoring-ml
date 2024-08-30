@@ -1,5 +1,5 @@
 
-# Gearbox Fault Detection in Wind Turbines: README
+# Predictive and Performance-Oriented Approach for Wind-Turbine Gearbox Maintenance: README
 
 ## Project Overview
 This project focuses on predictive maintenance for wind turbine gearboxes using machine learning and deep learning techniques. The goal is to accurately detect faults in the gearbox through vibration data analysis. The project includes data preprocessing, feature engineering, machine learning model training, deep learning model implementation, and various analysis scripts.
