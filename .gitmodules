@@ -1,0 +1,15 @@
+[submodule "WT-Gearbox-Vibration-Data-Generator"]
+	path = WT-Gearbox-Vibration-Data-Generator
+	url = https://github.com/alouatiq/WT-Gearbox-Vibration-Data-Generator
+[submodule "WT-Gearbox-Fault-Prediction-Data-Preprocessing-and-Feature-Engineering"]
+	path = WT-Gearbox-Fault-Prediction-Data-Preprocessing-and-Feature-Engineering
+	url = https://github.com/alouatiq/WT-Gearbox-Fault-Prediction-Data-Preprocessing-and-Feature-Engineering
+[submodule "WT-Gearbox-Fault-Detection-ML-DeepLearningModels"]
+	path = WT-Gearbox-Fault-Detection-ML-DeepLearningModels
+	url = https://github.com/alouatiq/WT-Gearbox-Fault-Detection-ML-DeepLearningModels
+[submodule "WT-Gearbox-Fault-Detection-ML-RandomForestClassifier"]
+	path = WT-Gearbox-Fault-Detection-ML-RandomForestClassifier
+	url = https://github.com/alouatiq/WT-Gearbox-Fault-Detection-ML-RandomForestClassifier
+[submodule "WT-Gearbox-Fault-Prediction-Performance-and-Evaluation-Model"]
+	path = WT-Gearbox-Fault-Prediction-Performance-and-Evaluation-Model
+	url = https://github.com/alouatiq/WT-Gearbox-Fault-Prediction-Performance-and-Evaluation-Model
