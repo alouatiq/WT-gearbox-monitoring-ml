@@ -77,6 +77,47 @@ The following software tools were developed during this research:
 4. **[WT-Gearbox-Fault-Detection-ML-RandomForestClassifier](https://github.com/alouatiq/WT-Gearbox-Fault-Detection-ML-RandomForestClassifier):** A machine learning model using Random Forest for fault detection.
 5. **[WT-Gearbox-Fault-Prediction-Performance-and-Evaluation-Model](https://github.com/alouatiq/WT-Gearbox-Fault-Prediction-Performance-and-Evaluation-Model):** An optimized Random Forest model for fault prediction.
 
+## Stracture
+```
+Vibration-Based Prediction of Gearbox Faults/
+├── Vibration Generator/
+│   ├── main.py
+│   ├── export_data.py
+│   ├── simulation.py
+│   └── parameters.py
+├── Data Preprocessing and Feature Engineering/
+│   ├── data_preprocessing.py
+│   └── feature_engineering.py
+├── Deep Learning Models/
+│   ├── Model_CNN.py
+│   ├── Model_LSTM.py
+│   ├── Model_Hybrid.py
+│   └── Model_Comparison.py
+├── Model Performance and Evaluation/
+│   ├── FFT_Analysis.py
+│   └── Decision_Boundaries.py
+├── Random forest classifier Model/
+│   ├── hyperparameter_tuning.py
+│   └── model_training.py
+├── GEN_data/
+│   ├── vibration_data.csv
+│   ├── Processed_Vibration_Data_Stage_I.csv
+│   └── Engineered_Features_Stage_I.csv
+├── HIS_data/
+│   ├── cnn_history.pkl
+│   ├── lstm_history.pkl
+│   └── hybrid_history.pkl
+├── plots/
+│    ├── CNN_Model_Performance
+│    ├── LSTM_Model_Performance
+│    ├── Hybrid_Model_Performance
+│    ├── Model_Comparison
+│    └── ...
+├── requirements.txt
+├── README.md
+└── AUTHORS
+```
+
 ## How to Clone the Repository with Submodules
 
 To properly clone this repository along with its submodules (which represent the associated software projects), use the following command:
