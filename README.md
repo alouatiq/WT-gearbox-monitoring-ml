@@ -123,7 +123,7 @@ Vibration-Based Prediction of Gearbox Faults/
 To properly clone this repository along with its submodules (which represent the associated software projects), use the following command:
 
 ```bash
-git clone --recurse-submodules https://github.com/alouatiq/Predictive-and-Performance-Oriented-Approach-for-Wind-Turbine-Gearbox-Maintenance.git
+git clone --recurse-submodules https://github.com/alouatiq/Vibration-Based-Prediction-of-Gearbox-Faults.git
 ```
 If you have already cloned the repository without submodules, you can initialize and update the submodules with:
 
